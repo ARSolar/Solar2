@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/panelCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/panel_count"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/orientation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/orientation"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/tilt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/tilt"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/shadowHours"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/shadow_hours"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate" />
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:paddingTop="16dp" />
+
+</LinearLayout>
