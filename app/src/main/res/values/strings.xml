@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SolarGen</string>
+    <string name="calculate">Calcular</string>
+    <string name="orientation">Orientação (graus)</string>
+    <string name="tilt">Inclinação (graus)</string>
+    <string name="panel_count">Número de placas</string>
+    <string name="shadow_hours">Horas de sombra (ex: 14-15)</string>
+    <string name="annual_generation">Geração Anual Estimada: %1$.2f kWh</string>
+</resources>
